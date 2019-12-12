@@ -1,0 +1,341 @@
+/* { 
+  border: 1px solid rgba(0, 0, 0, 0.3);
+} */
+
+
+.a-main:link, .a-main:visited, .a-main:active ,
+.footer-copyright:link, .footer-copyright:active, .footer-copyright:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.a-main:hover, .footer-copyright:hover {
+	color: #c7d6dd;
+	transition-duration: 0.15s;
+}
+
+.about {
+	color: white;
+	font-family: "Josefin Sans", sans-serif;
+	padding-top: 15px;
+	text-align: center;
+	margin: auto;
+	background-color: rgba(149, 93, 252, 0.7);
+	height: 100%;
+}
+
+.about-banner {
+	background: url(images/flowers.jpg);
+	background-repeat: no-repeat;
+	background-attachment: local;
+	background-position: center; 
+	bottom:0px;
+	height: 400px;
+	padding-bottom: 15px;
+	width: 100%;
+}
+
+.about h1 {
+	font-weight: 600;
+	font-size: 70px;
+}
+
+.about p {
+	font-size: 22px;
+	font-weight: 900;
+}
+
+body {
+	background: #f7f7f7;
+	margin: 0;
+}
+
+.body {
+	padding-top: 150px;
+	text-align: center;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.btn-default {
+	border: 1px solid #955dfc;
+	background-color: #fff;
+	color: #955dfc;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 600;
+	font-size: 10px;
+	letter-spacing: 1.3px;
+	padding: 10px 20px;
+	text-decoration: none;
+	text-transform: uppercase;  
+	display: inline-block;
+	margin-bottom: 20px;
+} 
+
+.btn-main {
+	background-color: #fff;
+	color: #955dfc;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 900;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	padding: 16px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn-signin {
+	background-color: #955dfc;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	color: #fff;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 900;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	padding: 16px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	z-index: 100000000;
+}
+
+.btn-signin:hover {
+	background-color: #fff;
+	color: #955dfc;
+	transition-duration: 0.15s;
+}
+
+#center {
+	position: relative;
+	right: 2%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.form-input, .form-label {
+	display: inline-block;
+}
+
+.form-label {
+	width: 30%;
+	text-align: right;
+	font-color: #955dfc;
+}
+
+.form-label + .form-input {
+	width: 30%;
+	margin: 0 30% 20px 4%;
+}
+
+.form-input + .form-input {
+	float: right;
+}
+
+.footer {
+	background-color: #955dfc;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 30px 0;
+}
+
+.footer p {
+	font-family: "Josefin Sans", sans-serif;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+.footer-f {
+	position: fixed;
+	background-color: #955dfc;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	color: #fff;
+	padding: 30px 0;
+}
+
+h1 {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #955dfc;
+	width: 100%;
+	position: fixed;
+	z-index: 10000;
+	border-top: 2px solid #955dfc;
+}
+
+.header-logo {
+	width: 200px;
+}
+
+.hide-me {
+    opacity: 0;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=password]:focus, select:focus {
+    border: 1px solid #955dfc;
+	outline-width: 0;
+	transition-duration: 0.15s;
+}
+
+input[type=text], input[type=password], select {
+	position: center;
+    width: 35%;
+	outline-width: 0;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 16px;
+}
+
+input[type=number] {
+	display: block;
+	align: center;
+	width: 20%;
+	outline-width: 0;
+    padding: 12px 20px;
+    margin: 8px 20px;
+    box-sizing: border-box;
+	font-family: "Josefin Sans", sans-serif;
+	font-size: 16px;
+	text-align: center;
+	float: left;
+	clear: left;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px white inset;
+	-border: 1px solid #955dfc;
+	outline-width: 0;
+}
+
+.jumbotron {
+	background: url(images/jumbotron.jpg);
+	background-size: cover;
+	height: 820px;
+	background-size: cover;
+}
+
+#left {
+	position: relative;
+	right: 23%;
+}
+
+#login, #logout {
+	position: absolute;
+    right: 20px;
+	bottom: 20px;
+	padding-bottom: 10px;
+}
+
+#logout-title {
+	position: absolute;
+	right: 20px;
+	bottom: 75px;
+	padding-bottom: 10px;
+}
+
+.main{
+	position: relative;
+	top: 240px;
+	text-align: center;
+	background-color: rgba(149, 93, 252, 0.7);
+	border-radius: 15px;
+	padding: 30px;
+}
+
+.main h1 {
+	color: #f7f7f7;
+	font-family: 'Dancing Script', cursive;
+	margin-top: 0;	
+}
+
+.main h2 {
+	color: #f7f7f7;
+	font-family: "Josefin Sans", sans-serif;
+	margin-top: 0;	
+}
+
+.main h1 {
+	font-weight: 600;
+	font-size: 70px;
+	margin-bottom: 25px;
+}
+
+.main h2 {
+	font-weight: 400;
+	font-size: 45px;
+	margin-bottom: 80px;
+}
+
+.nav {
+	color: white;
+	list-style-type: none;
+	margin: 0;
+	padding: 20px 0;
+}
+
+.nav li {
+	display: inline;
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 600;
+	font-size: 12px;
+	margin-right: 25px;
+	text-transform: uppercase;
+}
+
+#right {
+	margin-left: 18%;
+}
+
+.supporting {
+	padding-top: 80px;
+	padding-bottom: 100px;
+}
+
+.supporting .col {
+	float: left;
+	width: 33%;
+	font-family: "Josefin Sans", sans-serif;
+	text-align: center;
+}
+
+.supporting img {
+	height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.user {
+	position: absolute;
+    right: 20px;
+}
+
+.w3 {
+	position: static;
+	z-index: 1000;
+}
